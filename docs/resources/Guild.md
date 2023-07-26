@@ -554,14 +554,14 @@ Represents the [onboarding](https://support.discord.com/hc/en-us/articles/110749
 
 ###### Prompt Option Structure
 
-| Field       | Type                                               | Description                                                       |
-| ----------- | -------------------------------------------------- | ----------------------------------------------------------------- |
-| id          | snowflake                                          | ID of the prompt option                                           |
-| channel_ids | array of snowflakes                                | IDs for channels a member is added to when the option is selected |
-| role_ids    | array of snowflakes                                | IDs for roles assigned to a member when the option is selected    |
-| emoji       | [emoji](#DOCS_RESOURCES_EMOJI/emoji-object) object | Emoji of the option                                               |
-| title       | string                                             | Title of the option                                               |
-| description | ?string                                            | Description of the option                                         |
+| Field       | Type                                                | Description                                                       |
+| ----------- | --------------------------------------------------- | ----------------------------------------------------------------- |
+| id          | snowflake                                           | ID of the prompt option                                           |
+| channel_ids | array of snowflakes                                 | IDs for channels a member is added to when the option is selected |
+| role_ids    | array of snowflakes                                 | IDs for roles assigned to a member when the option is selected    |
+| title       | string                                              | Title of the option                                               |
+| description | ?string                                             | Description of the option                                         |
+| emoji       | ?[emoji](#DOCS_RESOURCES_EMOJI/emoji-object) object | Emoji of the option                                               |
 
 ###### Onboarding Mode
 
